@@ -1,0 +1,11 @@
+package com.charan.quiz_application.dao;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
+
+import com.charan.quiz_application.model.Quiz;
+
+@Repository
+public interface QuizDao extends JpaRepository<Quiz, Integer>{
+
+}
